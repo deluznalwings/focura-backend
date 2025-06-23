@@ -54,7 +54,11 @@ def game_logic(request:GameRequest):
     return GameResponse(
         message=interaction_msg,
         status=status,
-    )   
+    )
+
+@app.get("/")
+def read_root():
+    return {"message": "Focura backend is alive!"}   
 
 if __name__ == "__main__":
     import uvicorn

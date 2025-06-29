@@ -54,7 +54,7 @@ scenes={
 "The weather-beaten, sky-blue base cabinets span the entire lower half of the image—from beneath the left counter, across the sink area, and along the right wall—showing chipped paint, sturdy black hinges, and deep relief panels that define the kitchen’s rustic character."
 }},
 103:{"scene_overview":"Sun-washed turquoise cabinets line a narrow galley kitchen that opens directly onto a balcony drenched in greenery and a distant, rolling horizon. Golden daylight streams through the open double doors, striping the terracotta floor tiles and spotlighting baskets of produce, hanging copper pans, and trailing plants that lend the room a breezy, lived-in charm. Shelves crowded with crockery, a ceiling fan under a timber roof, and well-used utensils complete a space that feels equal parts rustic and idyllic, perfectly poised between indoors and the lush world outside",
-"scene_objetcts":{
+"scene_objects":{
 "stool": "Two slender wooden bar stools stand side-by-side just inside the doorway on the right, their pale legs planted in the sunlit path between the blue cabinets and the open door.",
 "ceiling fan": "A compact three-blade ceiling fan with light beige blades hangs from the center of the wooden plank ceiling, its pull-cord dangling toward the room’s midpoint.",
 "pineapple": "A whole pineapple sits on the left counter beneath the hanging mugs, its spiky crown poking toward the tiled backsplash just left of the sink area.",

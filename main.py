@@ -19,7 +19,7 @@ def game_logic(request:GameRequest):
     session_id=request.session_id
     clicked_object=request.clicked_object
     if session_id not in session_store:
-        scene_id=101
+        scene_id=request.scene_id
         description, session_objects= initialize_session(session_id, 5, scene_id)
         prompt = create_intro_prompt(description, session_objects)
         try: 

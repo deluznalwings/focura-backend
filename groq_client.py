@@ -3,7 +3,7 @@ from groq import Groq
 from dotenv import load_dotenv
 load_dotenv()
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
-def stream_completion(messages: list, model="llama3-8b-8192"):
+def stream_completion(messages: list, model="qwen/qwen3-32b"):
     try: 
         completion = client.chat.completions.create(
         model=model,

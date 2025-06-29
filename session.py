@@ -72,8 +72,8 @@ session_store:Dict[str, Dict]={}
 
 def initialize_session(session_id:int, num_objects:int, scene_id:int):
     scene = scenes[scene_id] 
-    all_objects = scene["objects"] 
-    overview = scene["overview"]  
+    all_objects = scene["scene_objects"] 
+    overview = scene["scene_overview"]  
     selected_objects=random.sample(list(all_objects),min(num_objects, len(all_objects)))
     description=overview + "\n\nHere are all objects in the room:\n\n"
     for obj_name, obj_desc in all_objects.items():
